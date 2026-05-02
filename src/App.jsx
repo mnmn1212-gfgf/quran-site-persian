@@ -1126,7 +1126,7 @@ export default function QuranTranslationLandingPage() {
               >
                 <a
                   href="#features"
-                  className={`group inline-flex items-center justify-center gap-3 rounded-2xl border border-white/10 px-6 py-3.5 text-sm font-bold ${OUTER_GRADIENT} shadow-[0_12px_28px_rgba(0,0,0,0.28)] transition hover:scale-[1.02] sm:px-7 sm:py-4 sm:text-base`}
+                  className="group inline-flex items-center justify-center gap-3 rounded-2xl border border-[#0E3A4A] bg-[#0B2238] px-6 py-3.5 text-sm font-bold shadow-[0_12px_28px_rgba(0,0,0,0.32)] transition hover:scale-[1.02] hover:bg-[#12314D] sm:px-7 sm:py-4 sm:text-base"
                   style={{
                     color: ACCENT,
                   }}
