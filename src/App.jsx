@@ -1678,7 +1678,7 @@ export default function QuranTranslationLandingPage() {
                         className="h-5 w-5 shrink-0"
                         style={{ color: ACCENT }}
                       />
-                      <span>امان - اردن</span>
+                      <span>عمان - اردن</span>
                     </div>
                   </div>
 
