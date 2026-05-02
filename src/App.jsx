@@ -1360,19 +1360,18 @@ export default function QuranTranslationLandingPage() {
                         همکاری اجرایی مورد اعتماد
                       </h2>
                       <p className="mt-5 text-base leading-8 text-white/75 sm:text-lg">
-                        The{" "}
+                        پروژه{" "}
                         <span className="font-bold text-white">
                           کانال‌های قرآنی سنا
                         </span>{" "}
-                        project is executed by{" "}
+                        توسط{" "}
                         <span
                           className="font-bold"
                           style={{ color: ACCENT }}
                         >
-                          Saudi Jordanian Satellite Broadcasting Company (JASCO)
+                          شرکت پخش ماهواره‌ای سعودی اردنی (JASCO)
                         </span>{" "}
-                        in Amman, Jordan, with leading expertise in media
-                        production and broadcasting.
+                        در امان، اردن اجرا می‌شود؛ با برخورداری از تجربه‌ای پیشرو در تولید رسانه‌ای و پخش ماهواره‌ای.
                       </p>
                     </div>
                   </div>
