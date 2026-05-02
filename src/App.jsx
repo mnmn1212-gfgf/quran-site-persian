@@ -1388,7 +1388,7 @@ export default function QuranTranslationLandingPage() {
                         href="https://jascomediacity.net/"
                         target="_blank"
                         rel="noreferrer"
-                        className={`mt-5 inline-flex w-fit items-center gap-2 rounded-2xl border border-white/10 ${OUTER_GRADIENT} px-5 py-3 text-sm font-semibold text-white shadow-[0_8px_22px_rgba(0,0,0,0.22)] transition hover:scale-[1.01] hover:border-white/20 sm:text-base`}
+                        className="mt-5 inline-flex w-fit items-center gap-2 rounded-2xl border border-[#0E3A4A] bg-[#0E3A4A] px-5 py-3 text-sm text-white transition hover:bg-[#12485B] hover:border-[#12485B] sm:text-base"
                       >
                         بازدید از وب‌سایت جاسکو
                         <ExternalLink className="h-4 w-4" />
