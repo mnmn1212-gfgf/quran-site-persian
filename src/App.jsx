@@ -1615,7 +1615,7 @@ export default function QuranTranslationLandingPage() {
 
           <footer className="pb-8 pt-4 sm:pb-10">
             <div
-              className={`rounded-[2rem] px-4 py-6 sm:px-6 sm:py-8 lg:px-10 ${glass}`}
+              className={`rounded-[2rem] border border-white/10 px-4 py-6 sm:px-6 sm:py-8 lg:px-10 ${OUTER_GRADIENT} shadow-[0_12px_34px_rgba(0,0,0,0.28)]`}
             >
               <div className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr_1fr]">
                 <div
@@ -1651,7 +1651,7 @@ export default function QuranTranslationLandingPage() {
                   </div>
                 </div>
 
-                <div className="rounded-[1.6rem] border border-white/10 bg-white/5 p-4 sm:p-5 text-center flex h-full flex-col items-center justify-center">
+                <div className={`rounded-[1.8rem] border border-white/10 ${OUTER_GRADIENT} p-4 sm:p-5 text-center flex h-full flex-col items-center justify-center shadow-[0_12px_34px_rgba(0,0,0,0.24)]`}>
                   <div className="mb-5 flex flex-col items-center justify-center gap-3 text-white">
                     <div className="relative flex h-16 w-16 items-center justify-center rounded-[1.35rem] border border-[#D8A73E]/20 bg-white/5 backdrop-blur-md shadow-[0_0_24px_rgba(216,167,62,0.12)] backdrop-blur-md">
                       <MessageCircle
@@ -1667,7 +1667,7 @@ export default function QuranTranslationLandingPage() {
                   <div className="w-full space-y-4 text-white/72 flex flex-col items-center">
                     <a
                       href="mailto:snachannel159@gmail.com"
-                      className="flex w-full items-center justify-center gap-3 break-all rounded-2xl border border-white/10 bg-[rgba(17,24,39,0.50)] px-4 py-3 text-sm text-center transition hover:bg-white/10 sm:text-base"
+                      className="flex w-full items-center justify-center gap-3 break-all rounded-2xl border border-white/10 bg-[rgba(2,10,20,0.58)] px-4 py-3 text-sm text-center transition hover:bg-white/10 sm:text-base"
                     >
                       <Mail
                         className="h-5 w-5 shrink-0"
@@ -1676,7 +1676,7 @@ export default function QuranTranslationLandingPage() {
                       <span className="text-center">snachannel159@gmail.com</span>
                     </a>
 
-                    <div className="flex w-full items-center justify-center gap-3 rounded-2xl border border-white/10 bg-[rgba(17,24,39,0.50)] px-4 py-3 text-sm text-center sm:text-base">
+                    <div className="flex w-full items-center justify-center gap-3 rounded-2xl border border-white/10 bg-[rgba(2,10,20,0.58)] px-4 py-3 text-sm text-center sm:text-base">
                       <MapPin
                         className="h-5 w-5 shrink-0"
                         style={{ color: ACCENT }}
@@ -1685,7 +1685,7 @@ export default function QuranTranslationLandingPage() {
                     </div>
                   </div>
 
-                  <div className="mt-5 w-full rounded-[1.4rem] border border-white/10 bg-[rgba(17,24,39,0.45)] p-4 text-center">
+                  <div className="mt-5 w-full rounded-[1.4rem] border border-white/10 bg-[rgba(2,10,20,0.55)] p-4 text-center">
                     <a
                       href="https://www.facebook.com/share/1HYdgEgEfg/"
                       target="_blank"
