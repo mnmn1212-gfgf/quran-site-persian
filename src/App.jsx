@@ -640,7 +640,7 @@ function HeroAudioPlayer({ isMobile }) {
 
         <div className="relative h-2 w-full flex-1 overflow-visible rounded-full bg-white/10">
           <div
-            className={`absolute inset-y-0 left-0 rounded-full ${OUTER_GRADIENT}`}
+            className={`absolute inset-y-0 right-0 rounded-full ${OUTER_GRADIENT}`}
             style={{ width: `${progress}%` }}
           />
           <input
@@ -650,7 +650,7 @@ function HeroAudioPlayer({ isMobile }) {
             step="0.1"
             value={currentTime}
             onChange={handleSeek}
-            className="audio-range absolute inset-0 z-10 h-full w-full cursor-pointer appearance-none bg-transparent"
+            className="audio-range absolute inset-0 z-10 h-full w-full cursor-pointer appearance-none bg-transparent [direction:rtl]"
             style={{ WebkitAppearance: "none" }}
           />
         </div>
@@ -951,7 +951,7 @@ function ProtectedHlsVideoCard({ video, index, isMobile }) {
 
           <div className="relative h-2 w-full flex-1 overflow-visible rounded-full bg-white/10">
             <div
-              className={`absolute inset-y-0 left-0 rounded-full ${OUTER_GRADIENT}`}
+              className={`absolute inset-y-0 right-0 rounded-full ${OUTER_GRADIENT}`}
               style={{ width: `${progress}%` }}
             />
             <input
@@ -961,7 +961,7 @@ function ProtectedHlsVideoCard({ video, index, isMobile }) {
               step="0.1"
               value={currentTime}
               onChange={handleSeek}
-              className="video-range absolute inset-0 z-10 h-full w-full cursor-pointer appearance-none bg-transparent"
+              className="video-range absolute inset-0 z-10 h-full w-full cursor-pointer appearance-none bg-transparent [direction:rtl]"
             />
           </div>
         </div>
