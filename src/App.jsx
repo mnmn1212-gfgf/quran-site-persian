@@ -20,8 +20,8 @@ import {
   MessageCircle,
   Mic2,
   MonitorPlay,
-  Pause,
-  Play,
+  توقف,
+  پخش,
   Radio,
   RotateCcw,
   Send,
@@ -32,7 +32,7 @@ import {
   Stars,
   Target,
   Users,
-  Volume2,
+  صدا2,
 } from "lucide-react";
 
 const ACCENT = "#D6C3A1";
@@ -589,9 +589,9 @@ function HeroAudioPlayer({ isMobile }) {
           aria-label={isPlaying ? "توقف" : "پخش"}
         >
           {isPlaying ? (
-            <Pause className="h-4 w-4" style={{ color: ACCENT }} />
+            <توقف className="h-4 w-4" style={{ color: ACCENT }} />
           ) : (
-            <Play className="h-4 w-4" style={{ color: ACCENT }} />
+            <پخش className="h-4 w-4" style={{ color: ACCENT }} />
           )}
         </button>
 
@@ -628,7 +628,7 @@ function HeroAudioPlayer({ isMobile }) {
           className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10"
           aria-label="صدا"
         >
-          <Volume2
+          <صدا2
             className={`h-4 w-4 ${muted ? "opacity-50" : ""}`}
             style={{ color: ACCENT }}
           />
@@ -899,7 +899,7 @@ function ProtectedHlsVideoCard({ video, index, isMobile }) {
             aria-label="پخش ویدئو"
           >
             <span className="flex h-16 w-16 items-center justify-center rounded-full border border-white/20 bg-white/10 backdrop-blur-md shadow-[0_0_28px_rgba(214,195,161,0.14)] sm:h-18 sm:w-18">
-              <Play className="ml-1 h-7 w-7 text-white" />
+              <پخش className="ml-1 h-7 w-7 text-white" />
             </span>
           </button>
         )}
@@ -917,7 +917,7 @@ function ProtectedHlsVideoCard({ video, index, isMobile }) {
             className="flex h-10 w-10 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-white transition hover:bg-white/10"
             aria-label="قطع یا وصل صدا"
           >
-            <Volume2
+            <صدا2
               className={`h-4 w-4 ${muted ? "opacity-50" : ""}`}
               style={{ color: ACCENT }}
             />
@@ -939,9 +939,9 @@ function ProtectedHlsVideoCard({ video, index, isMobile }) {
             aria-label={isPlaying ? "توقف" : "پخش"}
           >
             {isPlaying ? (
-              <Pause className="h-4 w-4" style={{ color: ACCENT }} />
+              <توقف className="h-4 w-4" style={{ color: ACCENT }} />
             ) : (
-              <Play className="h-4 w-4" style={{ color: ACCENT }} />
+              <پخش className="h-4 w-4" style={{ color: ACCENT }} />
             )}
           </button>
 
@@ -1146,7 +1146,7 @@ export default function QuranTranslationLandingPage() {
                   rel="noreferrer"
                   className="inline-flex items-center justify-center gap-3 rounded-2xl border border-white/15 bg-white/10 px-6 py-3.5 text-sm font-semibold text-white backdrop-blur-md transition hover:border-[#D6C3A1]/20 hover:bg-white/15 sm:px-7 sm:py-4 sm:text-base"
                 >
-                  <Play className="h-5 w-5" />
+                  <پخش className="h-5 w-5" />
                   بازدید از کانال ما
                 </a>
               </motion.div>
